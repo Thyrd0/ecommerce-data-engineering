@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Entorno virtual
+.venv/
+venv/
+
+# Variables de entorno
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos originales
+data/bronze/*
+!data/bronze/.gitkeep
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
